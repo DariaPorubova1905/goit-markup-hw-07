@@ -22,6 +22,16 @@
             <div class="container header-container">  
         <nav class="container-navigation">
             <a href="./index.html" class="logo"><span class="logo-web">Web</span><span class="logo-studio-one">Studio</span></a>
+            <button
+              type="button"
+              class="menu-toggle js-open-menu"
+              aria-expanded="false"
+              aria-controls="mobile-menu"
+            >
+              <svg class="mobile-icon" aria-label="mobile menu switcher">
+                <use href="./images/icons.svg#icon-menu" class="icon-menu"></use>
+              </svg>
+            </button>
             <ul class="container-nav">
                 <li><a href="index.html" class="nav-list current">Studio</a></li>
                 <li><a href="portfolio.html" class="nav-list">Portfolio</a></li>
@@ -29,7 +39,7 @@
             </ul>
         </nav>
         <address class="adress-li">
-            <ul class="adress-list">
+            <ul class="adress-list auth-nav">
                 <li><a href="mailto:info@devstudio.com" class="contact-list">info@devstudio.com</a></li>
                 <li><a href="tel:+110001111111" class="contact-list">+11 (000) 111-11-11</a></li>
             </ul>
@@ -107,7 +117,7 @@
                     </div>
                   </div>
     </section>
-        <section class="section">
+        <section class="section about-section">
             <div class="container">
             <h2 hidden  class="title-two"></h2>
             <ul class="container-section-two">
@@ -155,9 +165,21 @@
             <div class="container">
             <h2 class="section-three-title-two">What are we doing</h2>
             <ul class="whatwearedoing">
-                <li><img class="section-three-img" src="./images/computerwithdiagrams.jpg" alt="Computerwithdiagrams" width="360" height="300"></li>
-                <li><img class="section-three-img" src="./images/phonechats.jpg" alt="Phonewithalotofchats" width="360" height="300"></li>
-                <li><img class="section-three-img" src="./images/computerandphone.jpg" alt="Phoneandcomputer" width="360" height="300"></li>
+                <li><img class="section-three-img" srcset="./images/desktop.jpg 1x, ./images/desktop@2x.jpg 2x"
+                  src="./images/desktop.jpg"
+                  width="360"
+                  height="300"
+                  alt="Desktop"></li>
+                <li><img class="section-three-img" srcset="./images/multi.jpg 1x, ./images/multi@2x.jpg 2x"
+                src="./images/multi.jpg"
+                width="360"
+                height="300"
+                alt="Multi"></li>
+                <li><img class="section-three-img" srcset="./images/mobile.jpg 1x, ./images/mobile@2x.jpg 2x"
+                  src="./images/mobile.jpg"
+                  width="360"
+                  height="300"
+                  alt="Mobile"></li>
             </ul>
         </div>
         </section>
@@ -166,7 +188,7 @@
             <h2  class="section-four-title-two">Our Team</h2>   
             <ul class="ourteam">
                 <li class="team">
-                    <img class="mark-photo" src="./images/mark.jpg" alt="PhotoMarkGuerrero" width="264" height="260">
+                    <img class="mark-photo" srcset="./images/mark.jpg 1x, ./images/mark@2x.jpg 2x" src="./images/mark.jpg" alt="PhotoMarkGuerrero" width="264" height="260">
                 <div class="section-four-container">
                         <h3 class="section-four-title-three">Mark Guerrero</h3>
                     <p >Product Designer</p>
@@ -212,7 +234,7 @@
                 </div>
                 </li>
                 <li class="team">
-                <img class="tom-photo" src="./images/tom.jpg" alt="PhotoTomFord" width="264" height="260">
+                <img class="tom-photo"  srcset="./images/tom.jpg 1x, ./images/tom@2x.jpg 2x" src="./images/tom.jpg" alt="PhotoTomFord" width="264" height="260">
                 <div class="section-four-container">
                     <h3 class="section-four-title-three">Tom Ford</h3>
                     <p >Frontend Developer</p>
@@ -258,7 +280,7 @@
                 </div>
                 </li>
                 <li class="team">
-                <img class="camila-photo" src="./images/camila.jpg" alt="PhotoCamilaGarcia" width="264" height="260">
+                <img class="camila-photo" srcset="./images/camila.jpg 1x, ./images/camila@2x.jpg 2x" src="./images/camila.jpg" alt="PhotoCamilaGarcia" width="264" height="260">
                 <div class="section-four-container">
                     <h3 class="section-four-title-three">Camila Garcia</h3>
                     <p >Marketing</p>
@@ -304,7 +326,7 @@
                 </div>
                 </li>
                 <li class="team">
-                <img class="daniel-photo" src="./images/daniel.jpg" alt="PhotoDanielWilson" width="264" height="260">
+                <img class="daniel-photo" srcset="./images/daniel.jpg 1x, ./images/daniel@2x.jpg 2x" src="./images/daniel.jpg" alt="PhotoDanielWilson" width="264" height="260">
                 <div class="section-four-container">  
                 <h3 class="section-four-title-three">Daniel Wilson</h3>
                     <p >UI Designer</p>
