@@ -172,6 +172,9 @@
   .modal-close{
     fill: #2E2F42;
   }
+  .modal-close:hover{
+    fill: #ffffff;
+  }
   .menu-close-btn:hover{
     background-color: #404bbf;
   }
@@ -321,6 +324,7 @@
   
   .features-item {
     max-width: 396px;
+    margin-bottom: 72px;
   }
   
   .features-title {
@@ -340,13 +344,14 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    margin-bottom: 72px;
+   
   }
   
   /* -------------------WORKS------------------- */
   .works {
-    padding-top: 0;
+    
     display: none;
+    padding-top: 0px;
   }
   
   .works-list {
@@ -465,6 +470,7 @@
   .customers-link:focus {
     border-color: #404bbf;
     color: #404bbf;
+    fill: #404bbf;
   }
   
   .cutomers-icon {
@@ -906,7 +912,7 @@
   .policy-text {
     font-size: 12px;
     display: flex;
-    margin-bottom: 24px;
+    margin-bottom: 12px;
     font-weight: 400;
     font-size: 12px;
     line-height: 1.17;
@@ -932,6 +938,7 @@
   }
   .policy-link {
     margin-left: 2px;
+    color: #4D5AE5;
   }
   /* -------------------MEDIA------------------- */
   @media screen and (max-width: 427px) {
@@ -1050,6 +1057,7 @@
     }
     .features-item {
       max-width: 356px;
+      margin-bottom: 0px;
     }
     .features-list {
       display: flex;
@@ -1180,6 +1188,7 @@
   
     .works {
       display: block;
+      padding-top: 0px;
     }
   
     .team-item {
