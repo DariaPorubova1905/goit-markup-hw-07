@@ -476,6 +476,12 @@
   .cutomers-icon {
     fill: currentColor;
   }
+
+  .cutomers-icon:hover{
+    color: #404bbf;
+    fill: #404bbf;
+  }
+
   
   /* -------------------FOOTER------------------- */
   .footer {
